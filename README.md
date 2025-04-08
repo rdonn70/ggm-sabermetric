@@ -10,7 +10,7 @@ I believe viewers of modern baseball have become disillusioned by the spectacle 
 Enter the "Get Good Metric" or "GGM" for short (yeah, terrible name, feel free to name it something else). This metric takes a weird hybridization of OBP and adds a negative modifier to punish those who are undisciplined. Avoid looking at this metric as a way to define how "valuable" a player is. Actually, maybe just avoid looking at this metric altogether...  
   
 ## Equation Breakdown
-(H+BB+IBB) / (AB+BB) : Rewards hits, walks, and a little add-on bonus for intentional walks (because, wow, you're really intimidating to get intentionally walked!).
+(H+BB+IBB) / (AB+BB) : Rewards hits, walks, and a little add-on bonus for intentional walks (because, wow, you're really intimidating to get intentionally walked!).  
 -(SO+SF+SH+(2*GIDP)) / AB : Punishes the player for Strikeouts (duh), Sacrifice Flies (in my opinion, if you're gonna swing at the ball, make sure you actually hit it good), Sacrifice Hits (I don't believe in bunting), and a mega punishment for grounding into a double play (terrible, no good, very bad).  
   
 This all comes together to form a weird metric with some interesting results. Here's some examples (the higher the number, the better):
