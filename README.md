@@ -42,5 +42,5 @@ This all comes together to form a weird metric with some interesting results. He
 #9393 Mike Thurman, -0.75235  
   
 ## Notes about Results...  
-It should be noted that this data (seen in results.csv) was conducted using the attached python script (ggm-calculator.py), which only considers players that have at least 100 ABs. This data also has a Max Value of 0.399407 (John McGraw) and a Min Value of -0.75235 (sorry Mike Thurman).  
+It should be noted that this data (seen in results.csv) was conducted using the attached python script (ggm-calculator.py) created by me, with statistical data provided by Sean Lahman (http://www.seanlahman.com/). The program I made only considers players that have at least 100 ABs. This data also has a Max Value of 0.399407 (John McGraw) and a Min Value of -0.75235 (sorry Mike Thurman).  
 As previously stated, I made this in one night and spent approximately 40 minutes on this project, so if something is wrong with the program, data, reasoning, or something else entirely, please let me know. :)  
