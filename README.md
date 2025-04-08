@@ -1,4 +1,4 @@
-# The "Get Good Metric" (GGM) Baseball Sabermetric.  
+# The "Get Good Metric" (GGM) Baseball Sabermetric  
 ![get_good_metric](https://github.com/user-attachments/assets/a3488bac-292c-4687-8cd3-f2353f410b5f)
   
 I was kind of bored one night and decided to have some fun by making this terrible metric. Program works good enough, produces some surprising (and not so surprising) results, and heavily favors older baseball players (such as those in the late 1800s and early 1900s) before they started recording stats like SF, SH, GIDP, etc.  
