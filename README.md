@@ -11,8 +11,8 @@ Enter the "Get Good Metric" or "GGM" for short (yeah, terrible name, feel free t
 Avoid looking at this metric as a way to define how "valuable" a player is, simply look at it as an interesting ranking of players based on their pure hitting ability... actually, maybe just avoid looking at this metric altogether...  
   
 ## Equation Breakdown
-(H+BB+IBB) / (AB+BB) : Rewards hits, walks, and a little add-on bonus for intentional walks (because, wow, you're really intimidating to get intentionally walked!).  
--(SO+SF+SH+(2*GIDP)) / AB : Punishes the player for Strikeouts, Sacrifice Flies, Sacrifice Hits, and a big punishment for grounding into a double play. (While sacrifice flies and hits might be good for the team, it doesn't make you a good batter, and I didn't want to consider ALL flyouts/groundouts in this equation and just the ones recorded as sacrifices, for emphasis).  
+**(H+BB+IBB) / (AB+BB) :** Rewards hits, walks, and a little add-on bonus for intentional walks (because, wow, you're really intimidating to get intentionally walked!).  
+**-(SO+SF+SH+(2*GIDP)) / AB :** Punishes the player for Strikeouts, Sacrifice Flies, Sacrifice Hits, and a big punishment for grounding into a double play. (While sacrifice flies and hits might be good for the team, it doesn't make you a good batter, and I didn't want to consider ALL flyouts/groundouts in this equation and just the ones recorded as sacrifices, for emphasis).  
   
 This all comes together to form the Get Good Metric and produce some interesting results. Here's some examples (the higher the number, the better):
   
