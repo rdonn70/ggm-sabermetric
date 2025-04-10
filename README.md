@@ -12,7 +12,7 @@ Avoid looking at this metric as a way to define how "valuable" a player is, simp
   
 ## Equation Breakdown
 (H+BB+IBB) / (AB+BB) : Rewards hits, walks, and a little add-on bonus for intentional walks (because, wow, you're really intimidating to get intentionally walked!).  
--(SO+SF+SH+(2*GIDP)) / AB : Punishes the player for Strikeouts (duh), Sacrifice Flies (in my opinion, if you're gonna swing at the ball, make sure you actually hit it good), Sacrifice Hits (I don't believe in bunting), and a mega punishment for grounding into a double play (terrible, no good, very bad).  
+-(SO+SF+SH+(2*GIDP)) / AB : Punishes the player for Strikeouts, Sacrifice Flies, Sacrifice Hits, and a big punishment for grounding into a double play. (While sacrifice flies and hits might be good for the team, it doesn't make you a good batter, and I didn't want to consider ALL flyouts/groundouts in this equation and just the ones recorded as sacrifices, for emphasis).  
   
 This all comes together to form the Get Good Metric and produce some interesting results. Here's some examples (the higher the number, the better):
   
@@ -44,4 +44,6 @@ This all comes together to form the Get Good Metric and produce some interesting
   
 ## Notes about Results...  
 It should be noted that this data (seen in results.csv) was conducted using the attached python script (ggm-calculator.py) created by me, with statistical data provided by Sean Lahman (http://www.seanlahman.com/). The program I made only considers players that have at least 100 ABs. This data also has a Max Value of 0.399407 (John McGraw) and a Min Value of -0.75235 (sorry Mike Thurman).  
+Additionally, results_gmm_simple shows the results of the "simple" version of GMM (GMM = ((H+BB)/(AB+BB))-(SO/AB) ), this tries to account for the lack of statistics for players of different generations, and instead gives a "level" playing field by only considering strike outs as a negative (although I believe if you were to use this statistic, it should be used in it's full form but should probably only be considered for modern players).  
+  
 As previously stated, I made this in one night and spent approximately 40 minutes on this project, so if something is wrong with the program, data, reasoning, or something else entirely, please let me know. :)  
